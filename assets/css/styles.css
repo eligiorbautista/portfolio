@@ -1,3 +1,4 @@
+/* OTHERS */
 * {
     margin: 0px;
     padding: 0px;
@@ -9,31 +10,24 @@
 body {
     background-color: #FFF7D4;
 }
+/* END OF OTHERS */
 
  
 
- 
-
-/* HEADER */
+/* TOP */
 .top-container {   
-    background-color: #4C3D3D;
+    background-image: url("../images/banner.jpg");
+    background-position: center;
     text-align: center;
     font-weight: 900px;
     font-family: 'Roboto', 'Staatliches';
     letter-spacing: 3px;
-    color: #FFD95A;
-    /* text-shadow: 2px 2px #C07F00; */
+    color: #FFD369;
+    text-shadow: 5px 5px #020202;
 }
 
 .top-container-item {
     padding: 90px 100px 90px 100px;
-}
-
-#profile-1 {
-    display: block;
-    width:  300px;
-    border-radius: 100%;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.314);
 }
 
 h1 {
@@ -58,17 +52,13 @@ h3 {
     width: 35px;
     padding: 0px 0px 0px 50px;
 }
+/* END OF TOP */
 
 
-
- 
-
- 
-/* MID */
-
-#profile-2 {
+/* ABOUT */
+#profile {
     display: block;
-    width:  300px;
+    width:  280px;
     border-radius: 100%;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.314);
 }
@@ -79,21 +69,81 @@ h3 {
     /* font-weight: 800; */
 }
 
-.mid-container {
+.about-container {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 50px 150px 50px 150px;
     margin: auto 0px;
-    background-color: #FFF7D4;
+    background-color: #393E46; 
+    gap: 40px;
 
     text-align: justify;
 }
  
 
-.mid-card {
+.about-card {
+    border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.314);
-    background-color: #fceba1;
+    background-color: #EEEEEE;
+    padding: 20px 30px 20px 30px;
+    margin: 0px 0px 50px 0px
 
 }
+
+.text{
+    font-size: 25px;
+
+}
+/* END OF ABOUT */
+
+
+/* SKILLS AND EXPERIENCE  */
+#profile {
+    width:  280px;
+    border-radius: 100%;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.314);
+}
+
+.intro {
+    font-size: 30px;
+    font-family: 'Roboto', 'sans serif';
+    /* font-weight: 800; */
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px 150px 50px 150px;
+    margin: auto 0px;
+    background-color: #4d535e;
+    gap: -20px;
+    text-align: justify;
+}
+ 
+
+.skills-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.314);
+    background-color: #EEEEEE;
+    padding: 20px 30px 20px 20px;
+    margin: 0px 0px 0px 0px
+
+}
+
+.skill-icon {
+    width:  100px;
+    /* border-radius: 100%; */
+    margin: 0px 0px 30px 100px;
+    /* box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.314); */
+}
+
+#side-img {
+    width:  380px;
+    /* border-radius: 100%;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.314); */
+}
+
+/* END OF SKILLS AND EXPERIENCE */
+
 
 /* FOOTER */
