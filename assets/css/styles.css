@@ -198,15 +198,15 @@ h3 {
 }
 
 .projects-img-solo {
-    margin-left: 100px;
+    margin-left: 70px;
     border: 5px solid black;
     border-radius: 5px;
-    width: 700px;
+    width: 600px;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.314);
 }
 
 .projects-img-web {
-    margin-left: -200px;
+    margin-left: -180px;
     margin-bottom: 20px;
     border: 5px solid black;
     border-radius: 5px;
