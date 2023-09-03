@@ -127,8 +127,8 @@ h3 {
 }
 
 .skill-icon {
-    width:  60px;
-    margin: 40px 50px 40px 50px;
+    width:  80px;
+    margin: 40px 50px 20px 50px;
 }
 
 #side-img {
@@ -178,13 +178,9 @@ h3 {
 
 .projects-grid-item {
     padding: 20px 100px 0px 215px;
-
+ 
 }
 
-.projects-icon {
-    width:  40px;
-    margin: 0px 0px 20px 100px;
-}
 
 .projects-img {
     border: 5px solid black;
@@ -210,7 +206,7 @@ h3 {
 }
 
 .projects-img-web {
-    margin-left: -130px;
+    margin-left: -100px;
     margin-bottom: 20px;
     border: 5px solid black;
     border-radius: 5px;
@@ -221,7 +217,7 @@ h3 {
 .projects-img-mobile {
     margin: auto;
     border: 5px solid black;
-    margin-left: 30px;
+    margin-left: 50px;
     border-radius: 20px;
     width: 178px;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.314);
